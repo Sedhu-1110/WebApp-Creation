@@ -1,0 +1,10 @@
+/*
+  App.css — intentionally minimal.
+  All layout, component, and responsive styles live in global.css.
+  This file only exists for any App-level overrides if needed in future.
+
+  IMPORTANT: Do NOT redefine .navbar, .steps-content-wrapper, .phone-container,
+  .hero-section, .benefits-grid, .pledge-grid, or any section classes here.
+  Those are all owned by global.css and duplicating them causes cascade conflicts
+  that break the layout (the Steps phone float bug was caused by this).
+*/
